@@ -1,0 +1,51 @@
+components:
+- components:
+  - components:
+    - components:
+      - layout_properties: {grid_position: 'INZAFK,DRZCUH'}
+        name: img
+        properties: {source: ''}
+        type: Image
+      layout_properties: {grid_position: 'OJADAU,LHSGUY'}
+      name: cp_img
+      properties:
+        role: [outlined-card]
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'OTLRXI,OCHVQO'}
+      name: lbl_title
+      properties: {align: center, role: h3-style1, spacing_below: none, text: ''}
+      type: Label
+    - layout_properties: {grid_position: 'GECVIA,WJAAPI'}
+      name: lbl_subtitle
+      properties:
+        align: center
+        bold: true
+        role: [p-style2, p-style2-s]
+        spacing_above: none
+        text: ''
+        visible: false
+      type: Label
+    - layout_properties: {grid_position: 'EGZEOI,AJRIMN'}
+      name: lbl_desc
+      properties: {align: center, role: p-style2, text: ''}
+      type: Label
+    layout_properties: {grid_position: 'YLMNYT,XWNOOS'}
+    name: cp_serv1
+    properties: {role: enlarge-hover}
+    type: ColumnPanel
+  event_bindings: {click: link_card_click}
+  layout_properties: {grid_position: 'VYKYEE,LCKIZK'}
+  name: link_card
+  properties: {}
+  type: Link
+container: {type: ColumnPanel}
+custom_component: true
+events:
+- {default_event: true, name: click}
+is_package: true
+properties:
+- {default_binding_prop: true, default_value: '', important: true, name: title, type: string}
+- {default_value: '', important: true, name: description, type: string}
+- {accept: image/*, important: true, name: image, type: uri}
+- {default_value: '', important: true, name: subtitle, type: string}
+- {default_value: '', important: true, name: url, type: string}

@@ -1,0 +1,37 @@
+allow_embedding: false
+correct_dependency_ids: {dep_i3kq70u5al9g: KDKDM3MG6IQHC2FK, dep_y3wjt8qhkkrbfy: CVAFGUBPSRFZNPZD}
+db_schema: {}
+dependencies:
+- dep_id: dep_y3wjt8qhkkrbfy
+  resolution_hints: {app_id: CVAFGUBPSRFZNPZD, name: anvil_extras, package_name: anvil_extras}
+  version: {version_tag: v06}
+- dep_id: dep_i3kq70u5al9g
+  resolution_hints: {app_id: KDKDM3MG6IQHC2FK, name: Anvil Squared, package_name: anvil_squared}
+  version: {dev: false}
+metadata: {description: Dreambyte, logo_img: 'asset:dreambytebare.png', title: Dreambyte}
+name: Clone of Dreambyte
+native_deps:
+  head_html: |-
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <meta name="theme-color" content="hsla(0, 0%, 90%, 1)">
+    <script defer>
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'hsla(0, 0%, 90%, 1)');
+    </script>
+package_name: dreambyte
+renamed: true
+runtime_options:
+  client_version: '3'
+  legacy_features: {__dict__: true, bootstrap3: true, class_names: true, root_container: true}
+  server_spec: null
+  server_version: python3-full
+  version: 3
+secrets: null
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup: {module: startup, type: module}
+startup_form: null

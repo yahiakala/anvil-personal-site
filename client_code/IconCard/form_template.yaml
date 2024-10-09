@@ -1,0 +1,29 @@
+components:
+- components:
+  - components:
+    - layout_properties: {grid_position: 'VJMIKR,DHMZRD'}
+      name: lbl_title
+      properties: {align: center, role: p-style2, text: ''}
+      type: Label
+    - layout_properties: {grid_position: 'WZVRSM,OZJZLO'}
+      name: lbl_icon
+      properties: {align: center, font_size: 48, icon: ''}
+      type: Label
+    layout_properties: {grid_position: 'LFZFRF,SEVAJQ'}
+    name: cp_card
+    properties: {role: elevated-card}
+    type: ColumnPanel
+  event_bindings: {click: link_card_click}
+  layout_properties: {grid_position: 'CADZBI,KQVFJN'}
+  name: link_card
+  properties: {}
+  type: Link
+container: {type: ColumnPanel}
+custom_component: true
+events:
+- {default_event: true, name: click}
+is_package: true
+properties:
+- {default_binding_prop: true, default_value: '', important: true, name: title, type: string}
+- {default_value: '', important: true, name: icon, type: icon}
+- {default_value: '', important: true, name: description, type: string}

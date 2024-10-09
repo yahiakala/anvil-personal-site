@@ -1,0 +1,145 @@
+components:
+- data_bindings: []
+  layout_properties: {grid_position: 'CZAFJK,NZMATA'}
+  name: lbl_dream
+  properties: {align: center, font: '', foreground: '', role: h1-style4, text: Dreambyte}
+  type: Label
+- layout_properties: {grid_position: 'CUZGRD,YUPAHV'}
+  name: lbl_tagline
+  properties: {align: center, font_size: null, role: h2-style3, text: Get your AI initiative past the finish line}
+  type: Label
+- layout_properties: {grid_position: 'GFHXMJ,XRNYUB'}
+  name: lbl_desc
+  properties:
+    align: center
+    role: p-style2
+    text: |
+      Expert guidance will drastically improve your ROI on AI-powered features in your product.
+  type: Label
+- layout_properties: {grid_position: 'CSBMLO,DYXGGT'}
+  name: spacer_logo_top
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'UKWVBI,FRBCJS'}
+  name: img_logo
+  properties: {display_mode: shrink_to_fit, height: '300', source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/bricks_trans.png?alt=media&token=278865d1-6b56-45e8-bf79-a6ca831e10f2'}
+  type: Image
+- components:
+  - components:
+    - event_bindings: {}
+      layout_properties: {grid_position: 'EOVVSN,YLOENM'}
+      name: btn_services
+      properties:
+        align: center
+        icon: ''
+        icon_align: right
+        role: [outlined-button, b-style1]
+        text: Get Started
+      type: Button
+    layout_properties: {}
+    name: link_get_started
+    properties: {url: 'https://tidycal.com/yahia/30'}
+    type: Link
+  layout_properties: {grid_position: 'BHLWKC,PXMENG'}
+  name: flow_panel_1
+  properties: {align: center}
+  type: FlowPanel
+- layout_properties: {grid_position: 'FNXQGE,PKILVM'}
+  name: spacer_1_copy
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'QDOVFD,ZDILYE'}
+  name: label_2
+  properties: {role: h2-style3, text: Don't just "add AI" to your product}
+  type: Label
+- layout_properties: {grid_position: 'DKAIBJ,NBWCZJ'}
+  name: label_4
+  properties: {role: p-style2, text: 'Too many companies have jumped on the hype train and built vanity features that don''t move the needle. We''ll work together to understand what the most impactful and realistic use cases are for your situation. Solve a real pain point, and your customers (and balance sheets) will thank you.'}
+  type: Label
+- layout_properties: {grid_position: ',undefined'}
+  name: image_2
+  properties: {display_mode: fill_width, source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/hands_up_trans.png?alt=media&token=ab3a96c1-9127-437a-949a-6a668c9e3f93'}
+  type: Image
+- layout_properties: {grid_position: 'ZVEKOV,DRVMXQ'}
+  name: spacer_1_copy_copy
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'OFCPFR,YYRTLS'}
+  name: lbl_header_2
+  properties: {role: h2-style3, text: Get all the gains with no pain.}
+  type: Label
+- layout_properties: {grid_position: 'ZZXHEH,PKGINA'}
+  name: label_4_copy
+  properties: {role: p-style2, text: 'AI is not like regular software - there are many more things that can go wrong. Common pitfalls are hallucinations (AI models giving inaccurate results), unpredictability, data privacy, and reliability. We''ll put systems in place to mitigate all these issues, and show you how to monitor them.'}
+  type: Label
+- layout_properties: {grid_position: 'YVJEMX,OTLRCO'}
+  name: img_guardrails
+  properties: {display_mode: fill_width, source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/ai_guardrails.png?alt=media&token=bc4f5815-26ab-42f6-a7b6-5e978548b600'}
+  type: Image
+- layout_properties: {grid_position: 'CYBEJC,QBPXME'}
+  name: spacer_above_founder
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'BXKNLW,ETQBLT'}
+  name: label_6
+  properties: {align: center, role: h2-style3, text: Expertise you can trust}
+  type: Label
+- components:
+  - layout_properties: {width: 447.87084375}
+    name: img_founder
+    properties: {display_mode: fill_width, height: '200', role: circular-image, source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/portrait_3_square.jpeg?alt=media&token=f446bcd9-fcd5-44d3-9d64-348eb0c8702f'}
+    type: Image
+  - components:
+    - layout_properties: {grid_position: 'YNYUHO,IAAXTU'}
+      name: rt_founder
+      properties:
+        content: |2-
+
+          Hi 👋! I’m Yahia, Founder of Dreambyte.
+
+          In a past life as a Product Manager, I worked on many AI initiatives - most of which failed. Miserably. I tried to approach these projects like traditional software features. That proved to be a bad idea!
+
+          This set me on a path to deeply understand how to monetize AI technology in a way that doesn't break the bank and doesn't embarrass your company.
+
+          My approach is strategic and value-centric. I start with the ***why***, before diving into the ***how***.
+
+          **Trust that you're in good hands.**
+        role: [p-style2, rt-bluelink]
+      type: RichText
+    layout_properties: {width: 485.66840625}
+    name: cp_rt
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'HVHCRS,QGYURM'}
+  name: fp_founder
+  properties: {align: center, spacing: large, vertical_align: middle}
+  type: FlowPanel
+- components:
+  - components:
+    - event_bindings: {}
+      layout_properties: {grid_position: 'EOVVSN,YLOENM'}
+      name: btn_services_copy
+      properties:
+        align: center
+        icon: ''
+        icon_align: right
+        role: [outlined-button, b-style1]
+        text: Get Started
+      type: Button
+    layout_properties: {}
+    name: link_get_started_copy
+    properties: {url: 'https://tidycal.com/yahia/30'}
+    type: Link
+  layout_properties: {grid_position: 'FAWUKT,ZXKZZX'}
+  name: flow_panel_1_copy
+  properties: {align: center}
+  type: FlowPanel
+- layout_properties: {grid_position: 'GHHSDT,SCAEAG'}
+  name: spacer_bottom
+  properties: {height: '150'}
+  type: Spacer
+container:
+  event_bindings: {show: form_show}
+  type: ColumnPanel
+custom_component: true
+is_package: true

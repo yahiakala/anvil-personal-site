@@ -1,0 +1,273 @@
+components:
+- data_bindings: []
+  layout_properties: {grid_position: 'LWLIFE,CXWRSS'}
+  name: lbl_dream
+  properties: {align: center, font: '', foreground: '', role: h1-style4, text: Dreambyte}
+  type: Label
+- layout_properties: {grid_position: 'HUPLML,TOGEMJ'}
+  name: lbl_tagline
+  properties: {align: center, font_size: null, role: h2-style3, text: Accelerate your launch with our MVP development service.}
+  type: Label
+- layout_properties: {grid_position: 'UKBSAW,SSODBL'}
+  name: lbl_desc
+  properties:
+    align: center
+    role: p-style2
+    text: |
+      Turn your idea into a market-ready MVP you can use to fast-track your validation, gain early customers, and pitch to investors.
+  type: Label
+- layout_properties: {grid_position: 'KGCPCU,WBHHNP'}
+  name: spacer_logo_top
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'QTFNDW,JFKNCC'}
+  name: img_logo
+  properties: {display_mode: shrink_to_fit, height: '300', source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/bulb_trans.png?alt=media&token=57a24df2-9183-48d9-bb2b-686fcdf17729'}
+  type: Image
+- layout_properties: {grid_position: 'WKOUUL,RFPFZH'}
+  name: spacer_2_copy
+  properties: {height: 32, visible: false}
+  type: Spacer
+- components:
+  - components:
+    - event_bindings: {}
+      layout_properties: {grid_position: 'EOVVSN,YLOENM'}
+      name: btn_services
+      properties:
+        align: center
+        icon: ''
+        icon_align: right
+        role: [outlined-button, b-style1]
+        text: Get Started
+      type: Button
+    layout_properties: {}
+    name: link_get_started
+    properties: {url: 'https://tidycal.com/yahia/mvp'}
+    type: Link
+  layout_properties: {grid_position: 'OZCUIA,YYOVYA'}
+  name: flow_panel_1
+  properties: {align: center}
+  type: FlowPanel
+- layout_properties: {grid_position: 'YXNZBT,LYEQAG'}
+  name: spacer_1
+  properties: {height: '150'}
+  type: Spacer
+- components:
+  - components:
+    - layout_properties: {grid_position: 'IIUVEF,LNJWCD'}
+      name: label_1_copy_2
+      properties: {font_size: 48, icon: 'fa:quote-left', text: ''}
+      type: Label
+    - layout_properties: {grid_position: 'FRTAWX,MPXWAO'}
+      name: label_1
+      properties:
+        role: p-style2
+        text: |
+          The service provided has been instrumental in optimizing and enhancing Scrivano. It is with great appreciation that I extend my thanks for the outstanding work and support. I am confident in our continued partnership and look forward to future endeavors that will benefit from such exceptional service.
+      type: Label
+    - layout_properties: {grid_position: 'EAOKTT,PKTDTB'}
+      name: label_1_copy
+      properties: {bold: true, role: h1-style4, spacing_below: none, text: Julio Peguero}
+      type: Label
+    - layout_properties: {grid_position: 'LZLWIT,SGRNYJ'}
+      name: label_1_copy_copy_2
+      properties: {bold: false, italic: false, role: p-style2, spacing_above: none, text: 'CEO, Scrivano'}
+      type: Label
+    layout_properties: {width: 610.546875}
+    name: cp_test_1
+    properties: {col_widths: '{"MPXWAO":60}'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'CEUIDT,YSVTRA'}
+      name: img_test
+      properties: {display_mode: fill_width, role: circular-image, source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/Peguero%20Moreno%20Julio%20G.png?alt=media&token=ae3b8141-0d86-4a2a-a4d0-11d96ebaa383'}
+      type: Image
+    name: column_panel_1
+    properties: {visible: true}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'FYJUOA,UHHKJZ'}
+  name: flow_panel_4
+  properties: {align: center, vertical_align: middle}
+  type: FlowPanel
+- layout_properties: {grid_position: 'KTCGMX,ICXRGS'}
+  name: spacer_1_copy
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'YBPKFN,JUXKEU'}
+  name: label_2
+  properties: {role: h2-style3, text: Make those first impressions count}
+  type: Label
+- layout_properties: {grid_position: 'IMSUCP,BEMHKY'}
+  name: label_4
+  properties: {role: p-style2, text: 'With fierce competition, buggy prototypes are no longer in fashion. People expect new software to be more polished, and that first impression is incredibly important. You’ll want to put your best foot forward with your early users and investors.'}
+  type: Label
+- layout_properties: {grid_position: 'BXSEYS,EWZKGU'}
+  name: video_1
+  properties: {}
+  type: form:Video
+- components:
+  - layout_properties: {}
+    name: label_5
+    properties: {text: 'Real client project:'}
+    type: Label
+  - event_bindings: {click: link_1_click}
+    layout_properties: {}
+    name: link_1
+    properties: {text: Scrivano, underline: true}
+    type: Link
+  layout_properties: {grid_position: 'USOTFM,VMPZFG'}
+  name: flow_panel_3
+  properties: {align: center, spacing: tiny}
+  type: FlowPanel
+- layout_properties: {grid_position: 'WKHTVW,RIOBMV'}
+  name: spacer_3
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'IZSLGS,SYCIHD'}
+  name: label_3
+  properties: {role: h2-style3, text: Lighten your workload}
+  type: Label
+- layout_properties: {grid_position: 'IXQMTF,LDKGYA'}
+  name: rich_text_1
+  properties: {content: 'Being a founder involves wearing many hats. You have to be the marketer, the salesperson, the fundraiser, HR, the developer, you name it. ***Let us wear the developer hat, just for a little while***, so you can focus on the rest.', role: p-style2}
+  type: RichText
+- layout_properties: {grid_position: 'IJDNJZ,YURCMC'}
+  name: image_3
+  properties: {display_mode: fill_width, source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/hats_db.png?alt=media&token=649ed891-9316-497c-9037-bdac3fd7a17c'}
+  type: Image
+- layout_properties: {grid_position: 'XWKDJJ,GCJMWE'}
+  name: spacer_1_copy_2
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'OYCSNU,XITIFQ'}
+  name: lbl_tagline_copy
+  properties: {align: center, font_size: null, role: h2-style3, text: Transparent pricing and process.}
+  type: Label
+- layout_properties: {grid_position: 'ABNYNP,JXZYAQ'}
+  name: lbl_tagline_copy_copy
+  properties: {align: center, font_size: 32, role: h2-style3, text: $5000 USD. 30 days. No surprises.}
+  type: Label
+- layout_properties: {grid_position: 'WEYCDJ,YCTMYC'}
+  name: lbl_step_desc_title_copy
+  properties: {align: center, role: p-style2, text: Click on one of the steps for more details on how it's done.}
+  type: Label
+- layout_properties: {grid_position: 'FRFCUH,POIQPN'}
+  name: spacer_1_copy_copy
+  properties: {height: '15'}
+  type: Spacer
+- data_bindings: []
+  event_bindings: {click: icon_click}
+  layout_properties: {grid_position: 'HVJAKY,NPHCXR'}
+  name: ic_1
+  properties: {description: 'We’ll have a follow-up call to detail all of your requirements which include general functionality, features, user interaction, design assets, and user profiles. This step involves a lot of specific questions which help clarify exactly what will go into your MVP.  We’ll also be discussing what features we can realistically include. For example, creating a new ML model to detect cancer with a few examples is…out of our wheelhouse.  The outcome of this step will be a detailed breakdown of the requirements which will be a part of the contract.', icon: 'fa:headphones', title: Discovery Call}
+  type: form:IconCard
+- event_bindings: {click: icon_click}
+  layout_properties: {grid_position: 'HVJAKY,CBFLJP'}
+  name: ic_2
+  properties: {description: We'll figure out the reqs, icon: 'fa:list', title: Requirements}
+  type: form:IconCard
+- event_bindings: {click: icon_click}
+  layout_properties: {grid_position: 'HVJAKY,JECGEF'}
+  name: ic_3
+  properties: {description: we'll sign the contract, icon: 'fa:file-text-o', title: Contract}
+  type: form:IconCard
+- event_bindings: {click: icon_click}
+  layout_properties: {grid_position: 'HVJAKY,IBVYMC'}
+  name: ic_4
+  properties: {description: we'll complete the design, icon: 'fa:paint-brush', title: Design}
+  type: form:IconCard
+- event_bindings: {click: icon_click}
+  layout_properties: {grid_position: 'HVJAKY,JHYAOX'}
+  name: ic_5
+  properties: {description: we'll do the development, icon: 'fa:file-code-o', title: Development}
+  type: form:IconCard
+- event_bindings: {click: icon_click}
+  layout_properties: {grid_position: 'HVJAKY,KJIXUH'}
+  name: ic_6
+  properties: {description: we'll do the handover, icon: 'fa:handshake-o', title: Handover}
+  type: form:IconCard
+- layout_properties: {grid_position: 'BXDTPD,UHHIXZ'}
+  name: spacer_1_copy_copy_copy
+  properties: {height: '20'}
+  type: Spacer
+- components:
+  - components:
+    - layout_properties: {grid_position: 'ERCTDF,LJJYUG'}
+      name: lbl_step_desc_title
+      properties: {align: center, role: h1-style4, text: Discovery Call}
+      type: Label
+    - layout_properties: {grid_position: 'ULEKML,AXHJJK'}
+      name: lbl_step_desc_desc
+      properties: {align: left, role: p-style2, text: We'll get together for a 30 minute call to discuss your general requirements. This call will be used as an opportunity to understand whether we are a good fit. We will asefjwef w ef we fw ef wef we fwe fw e e e f e fe wf efwef, visible: false}
+      type: Label
+    - layout_properties: {grid_position: 'QCEABW,AUANHY'}
+      name: rt_step_desc_desc
+      properties: {role: p-style2}
+      type: RichText
+    name: cp_step_detail
+    properties: {col_widths: '{"AXHJJK":50}', role: outlined-card, visible: false}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'EALFCY,ATXRBG'}
+  name: flow_panel_2
+  properties: {align: center}
+  type: FlowPanel
+- layout_properties: {grid_position: 'MHINHQ,JBYFBV'}
+  name: spacer_1_copy_2_copy
+  properties: {height: '150'}
+  type: Spacer
+- layout_properties: {grid_position: 'ZHRIII,WSAVYK'}
+  name: label_6
+  properties: {align: center, role: h2-style3, text: Expertise you can trust}
+  type: Label
+- layout_properties: {grid_position: 'CNRQRZ,UODEAH'}
+  name: spacer_1_copy_2_copy_copy_2
+  properties: {height: 20.7890625}
+  type: Spacer
+- layout_properties: {grid_position: 'YODIFP,NERYTI'}
+  name: img_founder
+  properties: {display_mode: fill_width, role: circular-image, source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/portrait_3_square.jpeg?alt=media&token=f446bcd9-fcd5-44d3-9d64-348eb0c8702f'}
+  type: Image
+- layout_properties: {grid_position: 'YODIFP,GRVHXZ'}
+  name: rt_founder
+  properties:
+    content: |2-
+
+      Hi 👋! I’m Yahia, Founder of Dreambyte.
+
+      I have worked as a civil engineer, data analyst, product manager, and software developer. I also happen to have some [fancy pants certifications](https://www.linkedin.com/in/yahiakala/).
+
+      I know what it’s like to be juggling so many things on top of writing code. I also know what it’s like to try to explain what you want to developers, not to mention developers who don't have experience with AI. More than any technical skill, our shared context will be the biggest factor in our success working together.
+
+      **Trust that you're in good hands.**
+    role: [p-style2, rt-bluelink]
+  type: RichText
+- components:
+  - components:
+    - event_bindings: {}
+      layout_properties: {grid_position: 'EOVVSN,YLOENM'}
+      name: btn_services_copy
+      properties:
+        align: center
+        icon: ''
+        icon_align: right
+        role: [outlined-button, b-style1]
+        text: Get Started
+      type: Button
+    layout_properties: {}
+    name: link_get_started_copy
+    properties: {url: 'https://tidycal.com/yahia/mvp'}
+    type: Link
+  layout_properties: {grid_position: 'LYKELQ,NYETJS'}
+  name: flow_panel_1_copy
+  properties: {align: center}
+  type: FlowPanel
+- layout_properties: {grid_position: 'JMQGWT,JCAZHF'}
+  name: spacer_1_copy_2_copy_copy
+  properties: {height: '150'}
+  type: Spacer
+container:
+  event_bindings: {show: form_show}
+  properties: {col_widths: '{"YURCMC":35,"NERYTI":17,"GRVHXZ":21}'}
+  type: ColumnPanel
+custom_component: true
+is_package: true
