@@ -3,95 +3,6 @@ components:
   name: sp_hero_top
   properties: {height: '150'}
   type: Spacer
-- data_bindings: []
-  layout_properties: {grid_position: 'WYBDSV,RFOXSA'}
-  name: lbl_dream
-  properties: {font: '', foreground: '', role: h1-style4, text: Dreambyte}
-  type: Label
-- components:
-  - layout_properties: {grid_position: 'PJYYIO,TMCJAM'}
-    name: lbl_tagline
-    properties: {font_size: null, role: h2-style3, text: Cut through the hype with AI-powered software that delivers.}
-    type: Label
-  - layout_properties: {grid_position: 'MGQOQG,ERCQMG'}
-    name: lbl_desc
-    properties:
-      role: p-style2
-      text: |
-        We are a studio that creates AI-powered software that delights and empowers users at every level.
-    type: Label
-  - event_bindings: {click: btn_services_click}
-    layout_properties: {grid_position: 'ICSBEN,JYJYDP'}
-    name: btn_services
-    properties:
-      align: left
-      icon: fa:long-arrow-right
-      icon_align: right
-      role: [outlined-button, b-style1]
-      text: Services
-    type: Button
-  layout_properties: {grid_position: 'GXOTRA,UVMCTU'}
-  name: cp_hero_text
-  properties: {role: null}
-  type: ColumnPanel
-- components:
-  - data_bindings:
-    - {code: '''moon-arc''', property: role, writeback: false}
-    layout_properties: {grid_position: 'JAPDOD,TAQRVB'}
-    name: img_logo
-    properties: {display_mode: fill_width, height: '332', source: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/dreambytebare_trans.png?alt=media&token=79f13f4d-dd5d-48fa-942f-16465f1850c8'}
-    type: Image
-  layout_properties: {grid_position: 'GXOTRA,PKSLSL'}
-  name: cp_image
-  properties: {role: null}
-  type: ColumnPanel
-- layout_properties: {grid_position: 'IFRHML,OINWQD'}
-  name: sp_hero_bot
-  properties: {height: '180'}
-  type: Spacer
-- layout_properties: {grid_position: 'ZDBLLN,NPVMVR'}
-  name: lbl_serv_title
-  properties: {align: center, role: h1-style4, text: What we do}
-  type: Label
-- event_bindings: {click: cc_serv_mvp_click}
-  layout_properties: {grid_position: 'VXOLUX,YVZTKW'}
-  name: cc_serv_mvp
-  properties: {description: 'We''ll build your AI app MVP at an unbeatable price, so you can focus on impressing investors and early customers.', image: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/bulb_trans.png?alt=media&token=57a24df2-9183-48d9-bb2b-686fcdf17729', title: MVP Development, url: ''}
-  type: form:ClickableCard
-- event_bindings: {click: cc_serv_add_click}
-  layout_properties: {grid_position: 'VXOLUX,BDBOVB'}
-  name: cc_serv_add
-  properties: {description: 'We combine AI consulting, product management, and development to help you hone in on what matters and move the needle for your users.', image: 'https://firebasestorage.googleapis.com/v0/b/dreambyte-1a796.appspot.com/o/bricks_trans.png?alt=media&token=278865d1-6b56-45e8-bf79-a6ca831e10f2', title: AI Engineering, url: ''}
-  type: form:ClickableCard
-- layout_properties: {grid_position: 'MFOJLU,MWPZVD'}
-  name: sp_services_bot
-  properties: {height: '180'}
-  type: Spacer
-- layout_properties: {grid_position: 'MENDAB,NEUHPO'}
-  name: lbl_serv_title_copy
-  properties: {align: center, role: h1-style4, text: What we've done}
-  type: Label
-- data_bindings: []
-  layout_properties: {grid_position: 'QJAXIS,NYEYPC'}
-  name: cc_chatbeaver
-  properties: {description: 'An AI website chatbot for busy beavers. As Dreambyte''s first SaaS product, it is rough around the edges. We like it that way.', image: _/theme/newbeaver-removebg-preview.png, subtitle: Owned & Operated SaaS, title: Chatbeaver, url: 'https://chatbeaver.ca'}
-  type: form:ClickableCard
-- layout_properties: {grid_position: 'QJAXIS,IPZETE'}
-  name: cc_dreamtask
-  properties: {description: 'DreamTask started as an internal AI planner that was so useful, we had to share it with the world.', image: _/theme/dreamtask_mar20_trans.png, subtitle: Owned & Operated SaaS, title: Dreamtask, url: 'https://dreamtask.ca'}
-  type: form:ClickableCard
-- layout_properties: {grid_position: 'QJAXIS,QDMJAP'}
-  name: cc_notalone
-  properties: {description: 'An open source community platform that rivals the likes of Circle, Tribe, Skool, and others.', image: _/theme/Not Alone 2.png, subtitle: Open Source, title: Notalone}
-  type: form:ClickableCard
-- layout_properties: {grid_position: 'OUXPBO,UWURHI'}
-  name: sp_products_bot
-  properties: {height: '180'}
-  type: Spacer
-- layout_properties: {grid_position: 'ZDFGHW,ERPJIJ'}
-  name: lbl_founder_title
-  properties: {align: center, role: h1-style4, text: WHO WE ARE}
-  type: Label
 - components:
   - layout_properties: {width: 447.87084375}
     name: img_founder
@@ -103,28 +14,49 @@ components:
       properties:
         content: |2-
 
-          Hi 👋! I’m Yahia, Founder of Dreambyte.
+          Hi 👋! I’m Yahia.
 
           I have worked as a civil engineer, data analyst, product manager, and software developer. I also happen to have some [fancy pants certifications](https://www.linkedin.com/in/yahiakala/).
 
-          I know what it’s like to be juggling so many things on top of writing code. I also know what it’s like to try to explain what you want to developers, not to mention developers who don't have experience with AI. More than any technical skill, our shared context will be the biggest factor in our success working together.
-
-          My approach is strategic and value-centric. I start with the "why", before diving into the "how". My approach is tailored to AI-driven experiences where traditional software development approaches fail.
-
-          **Trust that you're in good hands.**
+          Scroll down for some highlights of my career.
         role: [p-style2, rt-bluelink]
       type: RichText
     layout_properties: {width: 485.66840625}
     name: cp_rt
     properties: {}
     type: ColumnPanel
-  layout_properties: {grid_position: 'EYSUUK,AJGVDP'}
+  layout_properties: {grid_position: 'QNUPQK,YRSTQY'}
   name: fp_founder
   properties: {align: center, spacing: large, vertical_align: middle}
   type: FlowPanel
+- layout_properties: {grid_position: 'IFRHML,OINWQD'}
+  name: sp_hero_bot
+  properties: {height: '180'}
+  type: Spacer
+- layout_properties: {grid_position: 'MENDAB,NEUHPO'}
+  name: lbl_serv_title_copy
+  properties: {align: center, role: h1-style4, text: portfolio}
+  type: Label
+- data_bindings: []
+  layout_properties: {grid_position: 'QJAXIS,NYEYPC'}
+  name: cc_chatbeaver
+  properties: {description: An AI website chatbot for busy beavers., image: _/theme/newbeaver-removebg-preview.png, subtitle: Sold in 2024, title: Chatbeaver, url: 'https://chatbeaver.ca'}
+  type: form:ClickableCard
+- layout_properties: {grid_position: 'QJAXIS,IPZETE'}
+  name: cc_dreamtask
+  properties: {description: 'DreamTask started as an internal AI planner that was so useful, I had to share it with the world.', image: _/theme/dreamtask_mar20_trans.png, subtitle: Solid in 2024, title: Dreamtask, url: 'https://dreamtask.ca'}
+  type: form:ClickableCard
+- layout_properties: {grid_position: 'QJAXIS,QDMJAP'}
+  name: cc_notalone
+  properties: {description: 'An open source community platform that rivals the likes of Circle, Tribe, Skool, and others.', image: _/theme/Not Alone 2.png, subtitle: Open Source, title: Notalone}
+  type: form:ClickableCard
+- layout_properties: {grid_position: 'OUXPBO,UWURHI'}
+  name: sp_products_bot
+  properties: {height: '180'}
+  type: Spacer
 container:
   event_bindings: {show: form_show}
-  properties: {col_widths: '{"UVMCTU":35,"PKSLSL":25}'}
+  properties: {col_widths: '{}'}
   type: ColumnPanel
 custom_component: true
 is_package: true

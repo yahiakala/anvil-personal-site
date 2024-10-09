@@ -24,7 +24,7 @@ class Home(HomeTemplate):
             
 
     def form_show(self, **event_args):
-        self.lbl_dream.scroll_into_view()
+        self.sp_hero_top.scroll_into_view()
 
     def btn_services_click(self, **event_args):
         """This method is called when the button is clicked"""

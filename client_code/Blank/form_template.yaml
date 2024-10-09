@@ -8,17 +8,18 @@ components:
     - components:
       - layout_properties: {}
         name: link_linkedin
-        properties: {font_size: 34, icon: 'fa:linkedin-square', text: '', url: ''}
+        properties: {font_size: 34, icon: 'fa:linkedin-square', text: '', url: 'https://linkedin.com/in/yahiakala'}
         type: Link
       - layout_properties: {}
         name: link_mail
-        properties: {font_size: 32, icon: 'fa:envelope', url: 'mailto:info@dreambyte.ai'}
+        properties: {font_size: 32, icon: 'fa:envelope', url: 'mailto:yahiakalabs@gmail.com'}
         type: Link
       name: fp_left
       properties: {}
       type: FlowPanel
-    - name: lbl_footer
-      properties: {align: right, text: © Dreambyte Inc. All rights reserved.}
+    - layout_properties: {}
+      name: lbl_footer
+      properties: {align: right, text: © Yahia Kala. All rights reserved.}
       type: Label
     layout_properties: {grid_position: 'GMFIEQ,ZBXODG'}
     name: fp_footer
